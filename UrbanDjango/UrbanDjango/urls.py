@@ -20,8 +20,8 @@ from django.http import HttpResponseRedirect
 
 
 urlpatterns = [
-    path('', include('task3.urls')),
+    path('', include('task4.urls')),
     path('admin/', admin.site.urls),
-    path('task3/', include('task3.urls')),
+    path('task4/', include('task4.urls')),
 ]
 
